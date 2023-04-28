@@ -1,0 +1,21 @@
+.message {
+    width: fit-content;
+    height: fit-content;
+    max-width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    word-break: break-all;
+    margin-bottom: 10px;
+}
+
+.from-me {
+    margin-left: auto;
+    background-color: #3c374c;
+    margin-right: 10px;
+}
+
+.form-contact {
+    margin-right: auto;
+    background-color: #5b42ac;
+    margin-left: 10px;
+}

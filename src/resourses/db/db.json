@@ -1,0 +1,92 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Bob Higson",
+            "avatar": "../images/man1.jpg",
+            "status": "online"
+        },
+        {
+            "id": 2,
+            "name": "Ralf Jameson",
+            "avatar": "../images/man2.jpg",
+            "status": "online"
+        },
+        {
+            "id": 3,
+            "name": "Thomas Edwards",
+            "avatar": "../images/man3.jpg",
+            "status": "5 min ago"
+        },
+        {
+            "id": 4,
+            "name": "Jerald Green",
+            "avatar": "../images/man4.jpg",
+            "status": "1 hour ago"
+        }
+    ],
+    "conversations": [
+        {
+            "id": 1,
+            "participants": [1, 22],
+            "messages": [
+                {
+                    "msgID": 1,
+                    "sender": 22,
+                    "text": "Hello, Bob!"
+                },
+                {
+                    "msgID": 2,
+                    "sender": 1,
+                    "text": "Hi John!"
+                },
+                {
+                    "msgID": 3,
+                    "sender": 22,
+                    "text": "How are you?"
+                },
+                {
+                    "msgID": 4,
+                    "sender": 1,
+                    "text": "I'm fine, man!"
+                },
+                {
+                    "msgID": 5,
+                    "sender": 1,
+                    "text": "What about you?"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "participants": [2, 22],
+            "messages": [
+                {
+                    "msgID": 1,
+                    "sender": 2,
+                    "text": "We must talk about the project today!"
+                },
+                {
+                    "msgID": 2,
+                    "sender": 2,
+                    "text": "Call me asap!"
+                },
+                {
+                    "msgID": 3,
+                    "sender": 2,
+                    "text": "Where are you!? We have a huge bug here!!!"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "participants": [3, 22],
+            "messages": []
+        },
+        {
+            "id": 4,
+            "participants": [4, 22],
+            "messages": []
+        }
+    ]
+}

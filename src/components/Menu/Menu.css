@@ -1,0 +1,35 @@
+.menu {
+    height: 100vh;
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.chat-logo {
+    padding: 5px;
+    border-radius: 20px;
+    margin: 20px 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.chat-logo:hover {
+    background-color: #2d2839;
+    cursor: pointer;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+.menu-item:hover {
+    color: #5b42ac;
+    cursor: pointer;
+}
+
+.active-menu-item {
+    color: #5b42ac;
+}

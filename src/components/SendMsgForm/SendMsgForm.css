@@ -1,0 +1,49 @@
+.send-message-form {
+    margin: 20px 0;
+    background-color: #3c374c;
+    padding: 10px 5px;
+    width: 80%;
+    height: max-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.send-message-input {
+    width: 85%;
+    height: 40px;
+    background-color: #3c374c;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: large;
+    resize: none;
+    overflow: hidden;
+}
+
+.send-message-input:focus {
+    outline: none;
+}
+
+.btn {
+    background-color: #7c5fda;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 0;
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #6850b9;
+}
+
+.uil-message {
+    font-size: x-large;
+    display: inline-block;
+    transform: rotate(-45deg);
+    margin: 0 0 2px 2px;
+}
